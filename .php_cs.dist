@@ -5,9 +5,6 @@ return PhpCsFixer\Config::create()
         PhpCsFixer\Finder::create()
             ->in('src')
             ->in('examples')
-            ->in('tests/unit')
-            ->in('tests/_support')
-            ->exclude('_generated')
     )
     ->setRules([
         '@PSR2' => true,
